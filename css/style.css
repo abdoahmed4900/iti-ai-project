@@ -1,0 +1,151 @@
+/* Start Of Components  */
+/* End Of Components  */
+/* Start Of Filters Selection  */
+h2 {
+    text-align: center;
+}
+
+.filters-selection {
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    padding: 30px;
+    box-shadow: 0 0 4px 0px;
+}
+
+.filters-selection-title p {
+    margin: 0;
+    padding: 0;
+    margin-left: 7px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.filter-selection-item {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.filter-selection-item select {
+    padding: 6px 24px 6px 12px;
+    /* Left and right padding */
+    font-size: 15px;
+    border-radius: 10px;
+    min-width: fit-content;
+    max-width: 100%;
+}
+
+.filter-selection-list {
+    width: 75%;
+}
+
+.filter-selection-item p {
+    margin: 20px 0;
+}
+
+.filter-selection-list.container {
+    margin: 0;
+}
+
+/* End Of Filters Selection  */
+/* Start Of Filters Results  */
+.filters-results {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media (max-width:767px) {
+    .filters-results {
+        grid-template-columns: 1fr;
+    }
+}
+
+.filters-result {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.filters-result img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.filters-result-location {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.filters-result-location>p {
+    margin-left: 5px;
+}
+
+.filters-result-location svg,
+.filters-result-location i {
+    margin-top: 3px;
+}
+
+
+
+.filters-result h3 {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.filters-result-star-rating p {
+    margin-left: 5px;
+    margin-bottom: -2px;
+    color: grey
+}
+
+.filters-result-star-rating {
+    display: flex;
+    align-items: center;
+}
+
+.filters-result h3,
+.filters-result-location,
+.filters-result-star-rating,
+.filters-result>p {
+    padding: 20px 0 0 15px;
+}
+
+
+.filters-result-price-section {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #00A53D;
+    background-color: white;
+    border-radius: 7px;
+    padding: 5px 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.filters-result-price-section p {
+    margin-bottom: 0;
+}
+
+.filters-result button {
+    margin: 0 7px 40px 15px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* End Of Filters Results  */

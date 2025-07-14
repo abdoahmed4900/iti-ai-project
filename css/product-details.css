@@ -1,0 +1,240 @@
+body {
+    margin-bottom: 16px !important;
+}
+
+/* Start Of Go Back Section  */
+
+.go-back-section-bg {
+    background-color: rgba(220, 220, 220, 0.445);
+}
+
+.go-back-container {
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.go-back-container p {
+    margin-bottom: 0;
+}
+
+.go-back-container:hover {
+    background-color: grey;
+}
+
+.go-back-section p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.go-back-section.container {
+    padding: 0;
+}
+
+/* End Of Go Back Section  */
+/* Start Of Hotel Details Section  */
+
+.hotel-details-image {
+    height: 400px;
+}
+
+.hotel-details-image img {
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.hotel-details-section {
+    padding-left: 4px !important;
+    padding-right: 0 !important;
+}
+
+@media (max-width:575px) {
+    .go-back-section.container {
+        width: 90%;
+    }
+}
+
+.hotel-details-text {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.hotel-rating-section {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.hotel-rating-section p {
+    color: grey;
+    margin-left: 8px;
+    font-size: 17px;
+}
+
+@media (max-width:767px) {
+    .hotel-details-text {
+        margin-top: 40px !important;
+    }
+}
+
+
+.hotel-price-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #00A53D;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.hotel-price-section p:last-child {
+    color: grey;
+    margin-left: 6px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hotel-details-text button {
+    background-color: black;
+    color: white;
+    width: 100%;
+    border-radius: 7px;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+}
+
+/* End Of Hotel Details Section  */
+/* Start Of About Hotel Section  */
+.about-hotel-section {
+    margin-top: 40px;
+}
+
+.about-hotel-section .container {
+    background-color: white;
+    box-shadow: 0 0 2px 0;
+    border-radius: 5px;
+    padding: 24px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.about-hotel-section .container h3 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* End Of About Hotel Section  */
+/* Start Of Amenities */
+.amenities {
+    margin-top: 40px;
+}
+
+.amenities .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    padding: 0;
+    gap: 20px;
+    box-shadow: 0 0 3px 0;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+@media (min-width:768px) {
+    .amenities .container {
+        grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    }
+}
+
+.amenity {
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    padding: 8px;
+    align-items: center;
+    border-radius: 5px;
+    gap: 10px;
+    background-color: #d6d6d6;
+}
+
+.amenity p {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* End Of Amenities */
+/* Start Of Photo Gallery */
+.photo-gallery {
+    margin-top: 40px;
+}
+
+.photo-gallery .container {
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 0 7px 0;
+    padding: 20px;
+}
+
+.photo-gallery h3 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.photo-gallery .photos {
+    margin-top: 30px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.photo img {
+    width: 100%;
+    height: 300px;
+    border-radius: 7px;
+}
+
+/* End Of Photo Gallery */
+/* Start Of Footer */
+footer {
+    margin-top: 50px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    gap: 20px;
+    padding: 50px;
+    background: #3059FB;
+    color: white;
+    background: linear-gradient(116deg, rgba(48, 89, 251, 1) 4%, rgba(144, 33, 250, 1) 59%);
+}
+
+footer .container h4 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer button {
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border: none;
+}
+
+/* End Of Footer */
